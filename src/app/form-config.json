@@ -1,0 +1,21 @@
+{
+  "Title": "Tech assessment",
+  "Subtitle": "Pappu Sabnani",
+  "Fields": [
+    {
+      "Type": "H1",
+      "Text": "Person name"
+    },
+    {
+      "ID": "person-name",
+      "Type": "Text",
+      "Placeholder": "John Smith"
+    },
+    {
+      "ID": "hello-button",
+      "Type": "Button",
+      "Title": "Say hi",
+      "AlertMessage": "Hello ${person-name}"
+    }
+  ]
+}
