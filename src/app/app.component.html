@@ -2,10 +2,10 @@
   <h2>{{ config.Title }}</h2>
   <h4>{{ config.Subtitle }}</h4>
   <!-- FORMS -->
-  <form>
-    <ng-container *ngFor="let field of config.Fields">
+  <form class="form-container">
+    <ng-container *ngFor="let field of config.Fields" >
       <!-- H1 Field -->
-      <h1 *ngIf="field.Type === 'H1'">{{ field.Text }}</h1>
+      <h1  *ngIf="field.Type === 'H1'">{{ field.Text }}</h1>
 
       <!-- Text Field -->
       <div *ngIf="field.Type === 'Text'">
